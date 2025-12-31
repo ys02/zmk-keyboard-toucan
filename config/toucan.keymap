@@ -27,17 +27,17 @@
             >;
         };
 
-        nav {
-            display-name = "NAV";
-            bindings = <
-&kp TAB  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans  &kp DELETE  &trans  &trans  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0  &trans  &kp LEFT_PARENTHESIS  &kp RPAR  &trans  &trans  &trans  &trans  &kp LC(SPACE)  &trans  &trans  &trans  &trans
-            >;
-        };
-
         symbol {
             display-name = "SYM";
             bindings = <
-&trans  &trans  &kp LS(N7)  &kp LS(N8)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &kp LS(NUMBER_4)  &kp LS(N5)  &kp LS(NUMBER_6)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &trans  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &trans  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans  &kp DELETE  &trans  &trans  &kp LS(NUMBER_4)  &kp LS(N5)  &kp LS(NUMBER_6)  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp SQT  &trans  &trans  &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N0)  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans  &kp LC(SPACE)  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        number {
+            display-name = "NUM";
+            bindings = <
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
